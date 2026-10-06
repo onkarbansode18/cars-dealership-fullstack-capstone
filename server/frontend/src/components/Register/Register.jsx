@@ -3,9 +3,9 @@ import { useNavigate } from 'react-router-dom';
 
 const Register = ({ onLoginSuccess }) => {
   const [formData, setFormData] = useState({
-    username: '',
-    first_name: '',
-    last_name: '',
+    userName: '',
+    firstName: '',
+    lastName: '',
     email: '',
     password: ''
   });
@@ -39,7 +39,7 @@ const Register = ({ onLoginSuccess }) => {
       if (response.ok && data.status === 'Authenticated') {
         setSuccess('Registration successful! Redirecting...');
         if (onLoginSuccess) {
-          onLoginSuccess(data.username);
+          onLoginSuccess(data.userName);
         }
         setTimeout(() => {
           navigate('/');
@@ -57,46 +57,46 @@ const Register = ({ onLoginSuccess }) => {
       <h2 style={{ textAlign: 'center', marginBottom: '1.5rem', color: 'var(--primary)' }}>
         User Registration
       </h2>
-      
+
       {error && <div style={{ color: '#dc2626', background: '#fee2e2', padding: '0.75rem', borderRadius: '8px', marginBottom: '1rem' }}>{error}</div>}
       {success && <div style={{ color: '#16a34a', background: '#dcfce7', padding: '0.75rem', borderRadius: '8px', marginBottom: '1rem' }}>{success}</div>}
 
       <form onSubmit={handleSubmit}>
         <div className="form-group">
-          <label htmlFor="username">Username</label>
+          <label htmlFor="userName">Username</label>
           <input
             type="text"
-            id="username"
-            name="username"
-            value={formData.username}
+            id="userName"
+            name="userName"
+            value={formData.userName}
             onChange={handleChange}
-            placeholder="Enter username"
+            placeholder="Username"
             required
           />
         </div>
 
         <div className="form-group">
-          <label htmlFor="first_name">First Name</label>
+          <label htmlFor="firstName">First Name</label>
           <input
             type="text"
-            id="first_name"
-            name="first_name"
-            value={formData.first_name}
+            id="firstName"
+            name="firstName"
+            value={formData.firstName}
             onChange={handleChange}
-            placeholder="Enter first name"
+            placeholder="First Name"
             required
           />
         </div>
 
         <div className="form-group">
-          <label htmlFor="last_name">Last Name</label>
+          <label htmlFor="lastName">Last Name</label>
           <input
             type="text"
-            id="last_name"
-            name="last_name"
-            value={formData.last_name}
+            id="lastName"
+            name="lastName"
+            value={formData.lastName}
             onChange={handleChange}
-            placeholder="Enter last name"
+            placeholder="Last Name"
             required
           />
         </div>
@@ -109,7 +109,7 @@ const Register = ({ onLoginSuccess }) => {
             name="email"
             value={formData.email}
             onChange={handleChange}
-            placeholder="Enter email address"
+            placeholder="Email"
             required
           />
         </div>
@@ -122,7 +122,7 @@ const Register = ({ onLoginSuccess }) => {
             name="password"
             value={formData.password}
             onChange={handleChange}
-            placeholder="Enter password"
+            placeholder="Password"
             required
           />
         </div>

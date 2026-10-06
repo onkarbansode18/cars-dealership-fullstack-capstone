@@ -13,17 +13,21 @@ class Command(BaseCommand):
         data_dir = base_dir / 'data'
 
         # Seed Superuser / Admin
-        if not User.objects.filter(username='admin').exists():
-            User.objects.create_superuser('admin', 'admin@example.com', 'admin123')
-            self.stdout.write(self.style.SUCCESS("Superuser 'admin' created successfully with password 'admin123'."))
+        if not User.objects.filter(username='root').exists():
+            User.objects.create_superuser('root', 'root@carsdealership.example.com', 'root123')
+            self.stdout.write(self.style.SUCCESS("Superuser 'root' created with password 'root123'."))
 
-        # Seed Test User for evidence
+        if not User.objects.filter(username='admin').exists():
+            User.objects.create_superuser('admin', 'admin@carsdealership.example.com', 'admin123')
+            self.stdout.write(self.style.SUCCESS("Superuser 'admin' created with password 'admin123'."))
+
+        # Seed Test User
         if not User.objects.filter(username='testuser').exists():
             u = User.objects.create_user('testuser', 'testuser@example.com', 'password123')
             u.first_name = 'Test'
             u.last_name = 'User'
             u.save()
-            self.stdout.write(self.style.SUCCESS("Test user 'testuser' created successfully."))
+            self.stdout.write(self.style.SUCCESS("Test user 'testuser' created."))
 
         # Seed Dealers
         dealers_file = data_dir / 'dealers.json'
@@ -35,6 +39,8 @@ class Command(BaseCommand):
                         dealer_id=item['id'],
                         defaults={
                             'name': item['name'],
+                            'short_name': item.get('short_name', ''),
+                            'full_name': item.get('full_name', item['name']),
                             'city': item['city'],
                             'state': item['state'],
                             'address': item['address'],
@@ -42,7 +48,9 @@ class Command(BaseCommand):
                             'phone': item.get('phone', ''),
                             'website': item.get('website', ''),
                             'image': item.get('image', ''),
-                            'description': item.get('description', '')
+                            'description': item.get('description', ''),
+                            'lat': item.get('lat', None),
+                            'long': item.get('long', None),
                         }
                     )
             self.stdout.write(self.style.SUCCESS(f"Seeded {len(dealers_data)} dealerships."))
@@ -62,7 +70,7 @@ class Command(BaseCommand):
                         name=item['model'],
                         defaults={'type': item.get('type', 'Sedan'), 'year': item.get('year', 2024)}
                     )
-            self.stdout.write(self.style.SUCCESS(f"Seeded cars data."))
+            self.stdout.write(self.style.SUCCESS("Seeded cars data."))
 
         # Seed Reviews
         reviews_file = data_dir / 'reviews.json'
@@ -85,4 +93,4 @@ class Command(BaseCommand):
                                 'sentiment': item.get('sentiment', 'positive')
                             }
                         )
-            self.stdout.write(self.style.SUCCESS(f"Seeded reviews data."))
+            self.stdout.write(self.style.SUCCESS("Seeded reviews data."))

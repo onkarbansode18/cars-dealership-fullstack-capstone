@@ -1,6 +1,10 @@
-# Cars Dealership Full-Stack Application
+# fullstack_developer_capstone — Cars Dealership Full-Stack Application
 
-[![CI/CD Pipeline](https://github.com/USERNAME/cars-dealership-fullstack-capstone/actions/workflows/cicd.yml/badge.svg)](https://github.com/USERNAME/cars-dealership-fullstack-capstone/actions)
+> **Repository:** `xrwvm-fullstack_developer_capstone`
+> **Project:** `fullstack_developer_capstone`
+> **GitHub:** [onkarbansode18/cars-dealership-fullstack-capstone](https://github.com/onkarbansode18/cars-dealership-fullstack-capstone)
+
+[![CI/CD Pipeline](https://github.com/onkarbansode18/cars-dealership-fullstack-capstone/actions/workflows/cicd.yml/badge.svg)](https://github.com/onkarbansode18/cars-dealership-fullstack-capstone/actions)
 
 ## Project Overview
 

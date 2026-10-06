@@ -29,6 +29,8 @@ class CarModel(models.Model):
 class Dealership(models.Model):
     dealer_id = models.IntegerField(unique=True)
     name = models.CharField(max_length=200)
+    short_name = models.CharField(max_length=100, blank=True, null=True)
+    full_name = models.CharField(max_length=250, blank=True, null=True)
     city = models.CharField(max_length=100)
     state = models.CharField(max_length=100)
     address = models.CharField(max_length=255)
@@ -37,6 +39,8 @@ class Dealership(models.Model):
     website = models.URLField(max_length=255, blank=True, null=True)
     image = models.URLField(max_length=500, blank=True, null=True)
     description = models.TextField(blank=True, null=True)
+    lat = models.FloatField(null=True, blank=True)
+    long = models.FloatField(null=True, blank=True)
 
     def __str__(self):
         return f"{self.name} - {self.city}, {self.state}"

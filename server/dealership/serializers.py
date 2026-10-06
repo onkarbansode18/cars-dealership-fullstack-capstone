@@ -9,22 +9,30 @@ class CarModelSerializer(serializers.ModelSerializer):
         fields = ['id', 'name', 'type', 'year', 'make_name']
 
 class CarMakeSerializer(serializers.ModelSerializer):
-    models = CarModelSerializer(many=True, read_only=True)
+    CarModels = CarModelSerializer(many=True, read_only=True, source='models')
 
     class Meta:
         model = CarMake
-        fields = ['id', 'name', 'description', 'country', 'models']
+        fields = ['id', 'name', 'description', 'country', 'CarModels']
 
 class DealershipSerializer(serializers.ModelSerializer):
     id = serializers.IntegerField(source='dealer_id', read_only=True)
 
     class Meta:
         model = Dealership
-        fields = ['id', 'dealer_id', 'name', 'city', 'state', 'address', 'zip', 'phone', 'website', 'image', 'description']
+        fields = [
+            'id', 'dealer_id', 'name', 'short_name', 'full_name',
+            'city', 'state', 'address', 'zip', 'phone', 'website',
+            'image', 'description', 'lat', 'long'
+        ]
 
 class ReviewSerializer(serializers.ModelSerializer):
-    dealer_id = serializers.IntegerField(source='dealer.dealer_id', read_only=True)
+    dealership = serializers.IntegerField(source='dealer.dealer_id', read_only=True)
 
     class Meta:
         model = Review
-        fields = ['id', 'dealer_id', 'name', 'review', 'purchase', 'purchase_date', 'car_make', 'car_model', 'car_year', 'sentiment', 'created_at']
+        fields = [
+            'id', 'dealership', 'name', 'review', 'purchase',
+            'purchase_date', 'car_make', 'car_model', 'car_year',
+            'sentiment', 'created_at'
+        ]
