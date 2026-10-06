@@ -1,0 +1,5 @@
+COMMAND:
+curl "http://127.0.0.1:8000/api/dealers/?state=Kansas"
+
+OUTPUT:
+[{"id":1,"dealer_id":1,"name":"Kansas City Motors","city":"Kansas City","state":"Kansas","address":"1010 Grand Blvd","zip":"64106","phone":"816-555-0101","website":"https://www.kankascitymotors.example.com","image":"https://images.unsplash.com/photo-1563720223185-11003d516935?w=800","description":"Premier dealership serving Kansas City with top quality new and pre-owned vehicles."},{"id":2,"dealer_id":2,"name":"Wichita Auto Center","city":"Wichita","state":"Kansas","address":"450 N Main St","zip":"67202","phone":"316-555-0199","website":"https://www.wichitaautocenter.example.com","image":"https://images.unsplash.com/photo-1549399542-7e3f8b79c341?w=800","description":"Wichita's trusted auto dealer for family sedans, trucks, and luxury SUVs."}]

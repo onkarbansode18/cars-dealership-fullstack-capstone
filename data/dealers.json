@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "name": "Kansas City Motors",
+    "city": "Kansas City",
+    "state": "Kansas",
+    "address": "1010 Grand Blvd",
+    "zip": "64106",
+    "phone": "816-555-0101",
+    "website": "https://www.kankascitymotors.example.com",
+    "image": "https://images.unsplash.com/photo-1563720223185-11003d516935?w=800",
+    "description": "Premier dealership serving Kansas City with top quality new and pre-owned vehicles."
+  },
+  {
+    "id": 2,
+    "name": "Wichita Auto Center",
+    "city": "Wichita",
+    "state": "Kansas",
+    "address": "450 N Main St",
+    "zip": "67202",
+    "phone": "316-555-0199",
+    "website": "https://www.wichitaautocenter.example.com",
+    "image": "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?w=800",
+    "description": "Wichita's trusted auto dealer for family sedans, trucks, and luxury SUVs."
+  },
+  {
+    "id": 3,
+    "name": "Dallas Auto Gallery",
+    "city": "Dallas",
+    "state": "Texas",
+    "address": "1200 Commerce St",
+    "zip": "75202",
+    "phone": "214-555-0144",
+    "website": "https://www.dallasautogallery.example.com",
+    "image": "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?w=800",
+    "description": "High-end luxury and performance vehicles in the heart of downtown Dallas."
+  },
+  {
+    "id": 4,
+    "name": "Austin Motors",
+    "city": "Austin",
+    "state": "Texas",
+    "address": "700 Congress Ave",
+    "zip": "78701",
+    "phone": "512-555-0177",
+    "website": "https://www.austinmotors.example.com",
+    "image": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=800",
+    "description": "Eco-friendly hybrids, EVs, and reliable cars in Austin, Texas."
+  },
+  {
+    "id": 5,
+    "name": "Los Angeles Auto Hub",
+    "city": "Los Angeles",
+    "state": "California",
+    "address": "900 Wilshire Blvd",
+    "zip": "90017",
+    "phone": "213-555-0122",
+    "website": "https://www.laautohub.example.com",
+    "image": "https://images.unsplash.com/photo-1583121274602-3e2820c69888?w=800",
+    "description": "Southern California's largest selection of premium luxury and sports cars."
+  },
+  {
+    "id": 6,
+    "name": "Chicago Motors",
+    "city": "Chicago",
+    "state": "Illinois",
+    "address": "300 N Michigan Ave",
+    "zip": "60601",
+    "phone": "312-555-0188",
+    "website": "https://www.chicagomotors.example.com",
+    "image": "https://images.unsplash.com/photo-1617814076367-b759c7d7e738?w=800",
+    "description": "Serving the Chicagoland area with durable AWD vehicles and SUVs."
+  },
+  {
+    "id": 7,
+    "name": "New York Select Auto",
+    "city": "New York",
+    "state": "New York",
+    "address": "550 10th Ave",
+    "zip": "10018",
+    "phone": "212-555-0133",
+    "website": "https://www.nyselectauto.example.com",
+    "image": "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?w=800",
+    "description": "Manhattan's premier dealership for urban compacts and executive sedans."
+  },
+  {
+    "id": 8,
+    "name": "Miami Luxury Cars",
+    "city": "Miami",
+    "state": "Florida",
+    "address": "1100 Biscayne Blvd",
+    "zip": "33132",
+    "phone": "305-555-0155",
+    "website": "https://www.miamiluxurycars.example.com",
+    "image": "https://images.unsplash.com/photo-1525609004556-c46c7d6cf023?w=800",
+    "description": "Exotic convertibles, luxury SUVs, and sports cars under the Florida sun."
+  }
+]

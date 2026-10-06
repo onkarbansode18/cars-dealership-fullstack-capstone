@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "dealer_id": 1,
+    "name": "Alex Johnson",
+    "review": "Fantastic services and extremely knowledgeable staff! Made buying my new SUV effortless.",
+    "purchase": true,
+    "purchase_date": "2026-02-15",
+    "car_make": "Toyota",
+    "car_model": "RAV4",
+    "car_year": 2024,
+    "sentiment": "positive"
+  },
+  {
+    "id": 2,
+    "dealer_id": 1,
+    "name": "Maria Garcia",
+    "review": "Great customer experience. The financing department was very transparent and fast.",
+    "purchase": true,
+    "purchase_date": "2026-03-01",
+    "car_make": "Honda",
+    "car_model": "CR-V",
+    "car_year": 2025,
+    "sentiment": "positive"
+  },
+  {
+    "id": 3,
+    "dealer_id": 2,
+    "name": "Robert Smith",
+    "review": "Solid dealership with competitive pricing. Very happy with my purchase.",
+    "purchase": true,
+    "purchase_date": "2026-01-20",
+    "car_make": "Ford",
+    "car_model": "F-150",
+    "car_year": 2024,
+    "sentiment": "positive"
+  },
+  {
+    "id": 4,
+    "dealer_id": 3,
+    "name": "Linda Davis",
+    "review": "Exceptional luxury buying experience in Dallas. Highly recommend salesman John!",
+    "purchase": true,
+    "purchase_date": "2026-02-28",
+    "car_make": "Chevrolet",
+    "car_model": "Tahoe",
+    "car_year": 2025,
+    "sentiment": "positive"
+  },
+  {
+    "id": 5,
+    "dealer_id": 4,
+    "name": "James Wilson",
+    "review": "The sales team was friendly, but the wait time during finance processing was a bit long.",
+    "purchase": true,
+    "purchase_date": "2026-03-10",
+    "car_make": "Toyota",
+    "car_model": "Camry",
+    "car_year": 2024,
+    "sentiment": "neutral"
+  }
+]

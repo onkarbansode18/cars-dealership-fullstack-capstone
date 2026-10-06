@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "make": "Toyota",
+    "model": "Camry",
+    "type": "Sedan",
+    "year": 2024
+  },
+  {
+    "id": 2,
+    "make": "Toyota",
+    "model": "Corolla",
+    "type": "Sedan",
+    "year": 2024
+  },
+  {
+    "id": 3,
+    "make": "Toyota",
+    "model": "RAV4",
+    "type": "SUV",
+    "year": 2025
+  },
+  {
+    "id": 4,
+    "make": "Honda",
+    "model": "Civic",
+    "type": "Sedan",
+    "year": 2024
+  },
+  {
+    "id": 5,
+    "make": "Honda",
+    "model": "Accord",
+    "type": "Sedan",
+    "year": 2025
+  },
+  {
+    "id": 6,
+    "make": "Honda",
+    "model": "CR-V",
+    "type": "SUV",
+    "year": 2025
+  },
+  {
+    "id": 7,
+    "make": "Ford",
+    "model": "Mustang",
+    "type": "Coupe",
+    "year": 2024
+  },
+  {
+    "id": 8,
+    "make": "Ford",
+    "model": "F-150",
+    "type": "Truck",
+    "year": 2024
+  },
+  {
+    "id": 9,
+    "make": "Ford",
+    "model": "Explorer",
+    "type": "SUV",
+    "year": 2025
+  },
+  {
+    "id": 10,
+    "make": "Chevrolet",
+    "model": "Malibu",
+    "type": "Sedan",
+    "year": 2024
+  },
+  {
+    "id": 11,
+    "make": "Chevrolet",
+    "model": "Tahoe",
+    "type": "SUV",
+    "year": 2025
+  },
+  {
+    "id": 12,
+    "make": "Chevrolet",
+    "model": "Silverado",
+    "type": "Truck",
+    "year": 2024
+  }
+]

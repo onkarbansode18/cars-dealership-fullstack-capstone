@@ -1,0 +1,5 @@
+COMMAND:
+curl http://127.0.0.1:8000/api/dealers/1/
+
+OUTPUT:
+{"id":1,"dealer_id":1,"name":"Kansas City Motors","city":"Kansas City","state":"Kansas","address":"1010 Grand Blvd","zip":"64106","phone":"816-555-0101","website":"https://www.kankascitymotors.example.com","image":"https://images.unsplash.com/photo-1563720223185-11003d516935?w=800","description":"Premier dealership serving Kansas City with top quality new and pre-owned vehicles."}

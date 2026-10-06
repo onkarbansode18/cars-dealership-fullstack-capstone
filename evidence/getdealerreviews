@@ -1,0 +1,5 @@
+COMMAND:
+curl http://127.0.0.1:8000/api/dealers/1/reviews/
+
+OUTPUT:
+[{"id":2,"dealer_id":1,"name":"Maria Garcia","review":"Great customer experience. The financing department was very transparent and fast.","purchase":true,"purchase_date":"2026-03-01","car_make":"Honda","car_model":"CR-V","car_year":2025,"sentiment":"positive","created_at":"2026-10-06T18:24:48.916089Z"},{"id":1,"dealer_id":1,"name":"Alex Johnson","review":"Fantastic services and extremely knowledgeable staff! Made buying my new SUV effortless.","purchase":true,"purchase_date":"2026-02-15","car_make":"Toyota","car_model":"RAV4","car_year":2024,"sentiment":"positive","created_at":"2026-10-06T18:24:48.826419Z"}]

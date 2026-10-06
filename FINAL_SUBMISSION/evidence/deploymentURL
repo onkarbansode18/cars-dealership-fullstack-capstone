@@ -1,0 +1,11 @@
+Deployment Status: PREPARED_FOR_DEPLOYMENT
+Deployment Target: IBM Cloud Code Engine / Container Registry
+Container Dockerfile: server/Dockerfile
+Docker Compose: server/docker-compose.yml
+
+Required Deployment Commands:
+1. ibmcloud login -a https://cloud.ibm.com -u <USER> -p <PASSWORD>
+2. ibmcloud cr login
+3. docker build -t us.icr.io/<NAMESPACE>/cars-dealership-app:latest -f server/Dockerfile .
+4. docker push us.icr.io/<NAMESPACE>/cars-dealership-app:latest
+5. ibmcloud ce application create --name cars-dealership --image us.icr.io/<NAMESPACE>/cars-dealership-app:latest --port 8000

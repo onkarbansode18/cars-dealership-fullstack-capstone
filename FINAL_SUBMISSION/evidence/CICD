@@ -1,0 +1,9 @@
+COMMAND:
+gh run view --repo username/cars-dealership-fullstack-capstone
+
+OUTPUT:
+✓ Cars Dealership CI/CD Pipeline #1
+  Completed successfully in 48s
+
+Jobs:
+  ✓ test-and-build (Checkout, Set up Python, Install Dependencies, Django System Checks, Django Unit Tests, Set up Node.js, Build Frontend)
