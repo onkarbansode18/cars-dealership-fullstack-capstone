@@ -1,8 +1,8 @@
 # Cars Dealership Capstone — Task 1–28 Submission Guide
 
 ## How to Use This Guide
-- Replace `<YOUR_USERNAME>` with your GitHub username after pushing.
-- Replace `<YOUR_REPO>` with the repository name (e.g. `cars-dealership-fullstack-capstone`).
+- Replace `onkarbansode18` with your GitHub username after pushing.
+- Replace `cars-dealership-fullstack-capstone` with the repository name (e.g. `cars-dealership-fullstack-capstone`).
 - For tasks requiring file contents: **paste the file content directly** into the submission box.
 - For tasks requiring GitHub URLs: **paste the full GitHub URL** shown below.
 - For tasks requiring screenshots: **upload the PNG file** from `FINAL_SUBMISSION/screenshots/`.
@@ -13,13 +13,13 @@
 
 | Task # | Task Title | Submission Type | What to Submit |
 |:------:|:-----------|:----------------|:---------------|
-| **1** | GitHub Public README | GitHub URL | `https://github.com/<YOUR_USERNAME>/<YOUR_REPO>/blob/main/README.md` |
+| **1** | GitHub Public README | GitHub URL | `https://github.com/onkarbansode18/cars-dealership-fullstack-capstone/blob/main/README.md` |
 | **2** | Django Server Running Evidence | Text Content | Paste contents of `evidence/django_server` |
-| **3** | About Us Page | GitHub URL | `https://github.com/<YOUR_USERNAME>/<YOUR_REPO>/blob/main/server/frontend/static/About.html` |
-| **4** | Contact Us Page | GitHub URL | `https://github.com/<YOUR_USERNAME>/<YOUR_REPO>/blob/main/server/frontend/static/Contact.html` |
+| **3** | About Us Page | GitHub URL | `https://github.com/onkarbansode18/cars-dealership-fullstack-capstone/blob/main/server/frontend/static/About.html` |
+| **4** | Contact Us Page | GitHub URL | `https://github.com/onkarbansode18/cars-dealership-fullstack-capstone/blob/main/server/frontend/static/Contact.html` |
 | **5** | Login User (curl evidence) | Text Content | Paste contents of `evidence/loginuser` |
 | **6** | Logout User (curl evidence) | Text Content | Paste contents of `evidence/logoutuser` |
-| **7** | Register Component | GitHub URL | `https://github.com/<YOUR_USERNAME>/<YOUR_REPO>/blob/main/server/frontend/src/components/Register/Register.jsx` |
+| **7** | Register Component | GitHub URL | `https://github.com/onkarbansode18/cars-dealership-fullstack-capstone/blob/main/server/frontend/src/components/Register/Register.jsx` |
 | **8** | Get Dealer Reviews (curl evidence) | Text Content | Paste contents of `evidence/getdealerreviews` |
 | **9** | Get All Dealers (curl evidence) | Text Content | Paste contents of `evidence/getalldealers` |
 | **10** | Get Dealer by ID (curl evidence) | Text Content | Paste contents of `evidence/getdealerbyid` |
@@ -191,11 +191,11 @@ Required Deployment Commands:
 ---
 
 ## GitHub URLs for Tasks 1, 3, 4, 7
-*(Replace `<YOUR_USERNAME>` and `<YOUR_REPO>` after pushing)*
+*(Replace `onkarbansode18` and `cars-dealership-fullstack-capstone` after pushing)*
 
 | Task | GitHub URL |
 |:----:|:-----------|
-| 1 | `https://github.com/<YOUR_USERNAME>/<YOUR_REPO>/blob/main/README.md` |
-| 3 | `https://github.com/<YOUR_USERNAME>/<YOUR_REPO>/blob/main/server/frontend/static/About.html` |
-| 4 | `https://github.com/<YOUR_USERNAME>/<YOUR_REPO>/blob/main/server/frontend/static/Contact.html` |
-| 7 | `https://github.com/<YOUR_USERNAME>/<YOUR_REPO>/blob/main/server/frontend/src/components/Register/Register.jsx` |
+| 1 | `https://github.com/onkarbansode18/cars-dealership-fullstack-capstone/blob/main/README.md` |
+| 3 | `https://github.com/onkarbansode18/cars-dealership-fullstack-capstone/blob/main/server/frontend/static/About.html` |
+| 4 | `https://github.com/onkarbansode18/cars-dealership-fullstack-capstone/blob/main/server/frontend/static/Contact.html` |
+| 7 | `https://github.com/onkarbansode18/cars-dealership-fullstack-capstone/blob/main/server/frontend/src/components/Register/Register.jsx` |
